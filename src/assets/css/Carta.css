@@ -1,0 +1,22 @@
+.carta, .portada, .contenido {
+    width: 8em;
+	height: 8em;
+	border-radius: 0.5em;
+}
+
+.portada {
+    background-color:#24506B ;
+}
+
+.contenido {
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	background-color: #5C9933;
+	box-shadow: inset 0 0 0 0.3em #f1efef;
+}
+
+.ReactFlipCard {
+	width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,10 @@
+
+.tablero {
+    display: flex;
+    flex-wrap: wrap;
+    width: 43em;
+    height: 36em;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}

@@ -1,0 +1,9 @@
+body {
+  background-color:#272a31;
+  display: flex;
+  flex-direction: column;
+}
+
+div:focus, button:focus {
+  outline: none !important;
+}
