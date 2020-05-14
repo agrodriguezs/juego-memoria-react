@@ -1,8 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
-
-In the project directory, you can run:
+## Juego de Memoria con react
 
 ### `npm start`
 
@@ -27,7 +25,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLImOJ2OqvvkBvWlM7wNh7_gcjP_kPDxRc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
