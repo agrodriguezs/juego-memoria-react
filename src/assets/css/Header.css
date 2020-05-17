@@ -24,7 +24,7 @@ header {
 } 
 
 .intentos {
-    font-size: 2em;
+    font-size: 2.5em;
     color: blanchedalmond;  
 } 
 .area-boton{
@@ -35,12 +35,12 @@ header {
 .boton-reiniciar{
     text-decoration: none;
     font-weight: 600;
-    font-size: 2em;
+    font-size: 1.3em;
     color: #ffffff;
     padding: 0.3em;
     background-color: darkkhaki;
-    border-radius: 0.3em;
-    border: 0.2em solid  #ffffff;
+    border-radius: 0.1em;
+    border: 0.1em solid  #ffffff;
   }
   .boton-reiniciar:hover{
     color: #c47114;
