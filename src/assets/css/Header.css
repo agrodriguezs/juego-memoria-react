@@ -5,10 +5,10 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content: center;
-
+    align-content: space-around;
     flex-direction: row;
     align-items: center;
+    width: 80%;
 }
 
 .titulo, .intentos {
@@ -19,13 +19,15 @@ header {
 } 
 .titulo {
     font-family: 'Luckiest Guy', cursive;
-    font-size: 3em;
+    font-size: 2em;
     color: darkkhaki;
 } 
 
 .intentos {
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: blanchedalmond;  
+    margin-left: 10px;
+    margin-right: 10px;
 } 
 .area-boton{
     display: flex;	
@@ -41,8 +43,34 @@ header {
     background-color: darkkhaki;
     border-radius: 0.1em;
     border: 0.1em solid  #ffffff;
+
   }
   .boton-reiniciar:hover{
-    color: #c47114;
-    background-color: #e9e27d;
+    color: #f1f0ef;
+    background-color: #5C9933;
   }
+
+  /*desde la anchura 0px hasta 660px de pantalla */
+@media ( max-width: 660px){
+	
+	header {
+         width: 100%;
+    }
+
+    .titulo {
+        font-size: 1.5em;
+        width: 100%;
+        margin-bottom: 10px;
+    } 
+    
+    .intentos {
+        font-size: 1em;
+        margin-left: 7px;
+        margin-right: 7px;
+    } 
+
+    .boton-reiniciar{
+        font-size: 0.8em;
+        padding: 0.2em;
+      }
+}

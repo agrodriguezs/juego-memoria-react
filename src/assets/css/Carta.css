@@ -5,7 +5,8 @@
 }
 
 .portada {
-    background-color:#24506B ;
+	background-color:#d45c0d ;
+	box-shadow: inset 0 0 0 0.3em rgb(204, 198, 196);
 }
 
 .contenido {
@@ -19,4 +20,40 @@
 .ReactFlipCard {
 	width: 100%;
 	height: 100%;
+}
+
+
+/*desde la anchura 0px hasta 700px de pantalla */
+@media ( max-width: 700px){
+	.carta, .portada, .contenido {
+		width: 6em;
+		height: 6em;
+		border-radius: 0.5em;
+		
+	}
+	.fa-5x {
+		font-size: 3em !important;
+	}
+
+}
+/*desde la anchura 0px hasta 550px de pantalla */
+@media ( max-width: 550px){
+	.carta, .portada, .contenido {
+		width: 4em;
+		height: 4em;
+	}
+	.fa-5x {
+		font-size: 2em !important;
+	}
+}
+/*desde la anchura 0px hasta 360px de pantalla */
+@media ( max-width: 360px){
+	.carta, .portada, .contenido {
+		width: 3em;
+		height: 3em;
+
+	}
+	.fa-5x {
+		font-size: 1.5em !important;
+	}
 }

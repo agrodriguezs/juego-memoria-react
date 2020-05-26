@@ -8,3 +8,28 @@
     justify-content: space-around;
 
 }
+
+/*desde la anchura 0px hasta 1314px de pantalla */
+@media ( max-width: 700px){
+    .tablero {
+        width: 34em;
+        height: 27em;
+ 
+    }
+}
+/*desde la anchura 0px hasta 550px de pantalla */
+@media ( max-width: 550px){
+    .tablero {
+        width: 22em;
+        height: 18em;
+ 
+    }
+}
+/*desde la anchura 0px hasta 360px de pantalla */
+@media ( max-width: 360px){
+    .tablero {
+        width: 17.5em;
+        height: 15em;
+ 
+    }
+}
