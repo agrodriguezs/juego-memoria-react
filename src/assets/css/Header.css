@@ -20,7 +20,7 @@ header {
 .titulo {
     font-family: 'Luckiest Guy', cursive;
     font-size: 2em;
-    color: darkkhaki;
+    color: #ADBD37;
 } 
 
 .intentos {
@@ -40,14 +40,16 @@ header {
     font-size: 1.3em;
     color: #ffffff;
     padding: 0.3em;
-    background-color: darkkhaki;
+    background-color: #67819D;
     border-radius: 0.1em;
     border: 0.1em solid  #ffffff;
 
   }
   .boton-reiniciar:hover{
-    color: #f1f0ef;
-    background-color: #5C9933;
+
+    background-color: #ADBD37;
+    color: rgb(3, 3, 0);
+    border: 0.1em solid  rgb(3, 3, 0);
   }
 
   /*desde la anchura 0px hasta 660px de pantalla */

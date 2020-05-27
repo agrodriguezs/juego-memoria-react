@@ -5,16 +5,16 @@
 }
 
 .portada {
-	background-color:#d45c0d ;
-	box-shadow: inset 0 0 0 0.3em rgb(204, 198, 196);
+	background-color:#67819D;
+	box-shadow: inset 0 0 0 0.3em rgb(10, 28, 46);
 }
 
 .contenido {
 	display: flex;	
 	justify-content: center;
 	align-items: center;
-	background-color: #5C9933;
-	box-shadow: inset 0 0 0 0.3em #f1efef;
+	background-color: #ADBD37;
+	box-shadow: inset 0 0 0 0.3em rgb(38, 42, 7);
 }
 
 .ReactFlipCard {
